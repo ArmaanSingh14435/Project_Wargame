@@ -14,6 +14,7 @@ package ca.sheridancollege.week1.softwarefundamentals;
  * modified by Armaan
  * this is change in netbeans reflected on github
  * Changed again to show fetch
+ * after merging
  */
 public class Student 
 {
