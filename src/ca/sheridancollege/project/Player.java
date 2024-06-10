@@ -6,7 +6,7 @@ package ca.sheridancollege.project;
 
 /**
  *
- * @author armaa
+ * @author Varundeep Singh - 9 June
  */
 import java.util.ArrayList;
 import java.util.List;

@@ -6,7 +6,7 @@ package ca.sheridancollege.project;
 
 /**
  *
- * @author armaa
+ * @author Varundeep Singh - 9 June
  */
 
 public class WarPlayer extends Player {
