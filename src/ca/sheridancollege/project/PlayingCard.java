@@ -6,7 +6,7 @@ package ca.sheridancollege.project;
 
 /**
  *
- * @author armaa
+ * @author Armaan Singh 9 June
  */
 public class PlayingCard extends Card {
     public PlayingCard(String suit, String rank) {

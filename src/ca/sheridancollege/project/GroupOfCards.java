@@ -1,7 +1,7 @@
 /**
  * SYST 17796 Project Base code.
  * Students can modify and extend to implement their game.
- * Add your name as an author and the date!
+ * @author Armaan Singh 9 June
  */
 package ca.sheridancollege.project;
 
@@ -38,4 +38,4 @@ public class GroupOfCards {
         return cards.isEmpty();
     }
 
-}//end class
+}
