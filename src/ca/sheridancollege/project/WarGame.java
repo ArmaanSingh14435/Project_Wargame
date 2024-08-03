@@ -14,10 +14,12 @@ package ca.sheridancollege.project;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+// main class which is based on Game class
 public class WarGame extends Game {
 
     private final GroupOfCards deck;
 
+    // constructor for WarGame
     public WarGame(String name, String player1Name, String player2Name) {
         super(name);
         ArrayList<Player> players = new ArrayList<>();
@@ -28,6 +30,10 @@ public class WarGame extends Game {
     }
 
     @Override
+    /* function which starts the play
+        each player is assigned a random card 
+    out of the group of cards and the one with higher value wins.
+    */
     public void play() {
         Player player1 = getPlayers().get(0);
         Player player2 = getPlayers().get(1);
@@ -65,6 +71,10 @@ public class WarGame extends Game {
         }
     }
 
+    /* function to declare winner
+    based on the final points
+    
+    */
     @Override
     public void declareWinner() {
         Player player1 = getPlayers().get(0);
@@ -83,6 +93,7 @@ public class WarGame extends Game {
         }
     }
 
+    // main method
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -96,6 +107,9 @@ public class WarGame extends Game {
 
         WarGame game = new WarGame("War Card Game", player1Name, player2Name);
         game.play();
+        System.out.println("-------------------");
+        System.out.println("-------------------");
         game.declareWinner();
+        
     }
 }

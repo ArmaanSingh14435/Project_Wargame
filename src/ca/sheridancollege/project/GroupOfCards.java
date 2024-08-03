@@ -2,6 +2,7 @@
  * SYST 17796 Project Base code.
  * Students can modify and extend to implement their game.
  * @author Armaan Singh 9 June
+ * @modifier Varundeep Singh 
  */
 package ca.sheridancollege.project;
 
@@ -14,6 +15,7 @@ public class GroupOfCards {
 
     private final List<PlayingCard> cards; // The concrete subclass
 
+    // a function to return group of cards out of the deck for each player
     public GroupOfCards() {
         String[] suits = {"Hearts", "Diamonds", "Clubs", "Spades"};
         String[] ranks = {"2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A"};
@@ -27,6 +29,7 @@ public class GroupOfCards {
         Collections.shuffle(cards);
     }
 
+    // function to return the playing card
     public PlayingCard getCard() {
         if (cards.isEmpty()) {
             return null;

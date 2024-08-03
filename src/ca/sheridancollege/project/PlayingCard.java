@@ -8,6 +8,11 @@ package ca.sheridancollege.project;
  *
  * @author Armaan Singh 9 June
  */
+
+/*
+ a class that extends card abstract class 
+    which acts as a playing card for each turn of the player 
+*/
 public class PlayingCard extends Card {
     public PlayingCard(String suit, String rank) {
         super(suit, rank);

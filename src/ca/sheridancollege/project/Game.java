@@ -6,6 +6,7 @@ package ca.sheridancollege.project;
 
 import java.util.ArrayList;
 
+// an abstract class for building the wargame class
 /*
 @modifier Arshdeep Singh
 */

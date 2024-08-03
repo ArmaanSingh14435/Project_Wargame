@@ -7,6 +7,8 @@ package ca.sheridancollege.project;
 /**
  *
  * @author Varundeep Singh - 9 June
+ * @modifier Rajiv Kumar
+ * @modifier Arshdeep Singh
  */
 
 public class WarPlayer extends Player {
@@ -15,6 +17,7 @@ public class WarPlayer extends Player {
         super(name);
     }
 
+    // functions which returns a card from the cards in hand (group of cards)
     @Override
     public Card playCard() {
         if (getHand().isEmpty()) {

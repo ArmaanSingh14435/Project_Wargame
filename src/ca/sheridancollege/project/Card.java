@@ -10,6 +10,7 @@ package ca.sheridancollege.project;
  * game. Students wishing to add to the code should remember to add themselves as a modifier.
  *
  * @author Armaan Singh 9 June
+ * @modifier Arshdeep Singh 1 August 2024
  */
 public abstract class Card {
 
